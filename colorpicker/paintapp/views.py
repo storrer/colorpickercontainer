@@ -15,4 +15,4 @@ class ColorPickerView(View):
             'blue': 255,
         }
 
-        return render(request, 'color_picker.html', context=context)
+        return render(request, 'paint.html', context=context)
